@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sa7ten/presentation/screens/HomeScreen.dart';
 
-import 'main.dart';
+import 'features/home/presentation/home/screens/HomeScreen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -25,7 +24,7 @@ class SplashScreenState extends State<SplashScreen> {
           context,
           MaterialPageRoute(
               builder: (context) =>
-                   HomeScreen()));
+                   const HomeScreen()));
     }
   }
 
